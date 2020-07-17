@@ -25,7 +25,8 @@ A `refreshInterval` of `5` is recommended. Anything lower could be harmful to JH
 **usSpecific**- This module displays US counties data. More specific than `unitedStates`.
 
 **graphs**- Displays updates to the most up to date Covid-19 numbers.
-![Imgur](https://imgur.com/L1rm0FN?raw=true "Title")
+
+![Chart Example](/bar_charts/example.png)
 
 ```json
 {
