@@ -165,13 +165,11 @@ def covidMonitor(refreshInterval):
                             
                             totalConf = 0
                             totalDeaths = 0
-                            totalReco = 0
                             for country in rawWorldData["features"]:
                                 totalConf = totalConf + country["attributes"]["Confirmed"]
                                 totalDeaths = totalDeaths + country["attributes"]["Deaths"]
-                                totalReco = totalReco + country["attributes"]["Recovered"]
 
-                            embed = Embed(color=16544031, title=timeS, description=f"**Total Deaths:** {totalDeaths}\n**Total Recovered:** {totalReco}\n**Total Confirmed:** {totalConf}")
+                            embed = Embed(color=16544031, title=timeS, description=f"**Total Deaths:** {totalDeaths}\n**Total Confirmed:** {totalConf}")
                             embed.set_image(url=uploadedImage.link)
                             embed.set_footer(text='Made by dark#9999 | {}'.format(timestamp), icon_url=footImg)
                             graph.send(embed=embed)
@@ -386,13 +384,11 @@ def covidMonitor(refreshInterval):
                     
                     totalConf = 0
                     totalDeaths = 0
-                    totalReco = 0
                     for country in rawWorldData["features"]:
                         totalConf = totalConf + country["attributes"]["Confirmed"]
                         totalDeaths = totalDeaths + country["attributes"]["Deaths"]
-                        totalReco = totalReco + country["attributes"]["Recovered"]
 
-                    embed = Embed(color=16544031, title=timeS, description=f"**Total Deaths:** {totalDeaths}\n**Total Recovered:** {totalReco}\n**Total Confirmed:** {totalConf}")
+                    embed = Embed(color=16544031, title=timeS, description=f"**Total Deaths:** {totalDeaths}\n**Total Confirmed:** {totalConf}")
                     embed.set_image(url=uploadedImage.link)
                     embed.set_footer(text='Made by dark#9999 | {}'.format(timestamp), icon_url=footImg)
                     dailyGraph.send(embed=embed)
