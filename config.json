@@ -1,0 +1,30 @@
+{
+    "monitor": true,
+    "refreshInterval": 5,
+    "imgurClientID": "",
+    "usSpecific": {
+        "enabled?": true,
+        "webhookEnabled?": true,
+        "webhook": ""
+    },
+    "unitedStates": {
+        "enabled?": true,
+        "webhookEnabled?": true,
+        "webhook": ""
+    },
+    "world": {
+        "enabled?": true,
+        "webhookEnabled?": true,
+        "webhook": ""
+    },
+    "graphs": {
+        "hourly": {
+            "enabled?": true,
+            "webhook": ""
+        },
+        "daily": {
+            "enabled?": true,
+            "webhook": ""
+        }
+    }
+}

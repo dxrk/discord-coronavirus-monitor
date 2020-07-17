@@ -1,0 +1,6 @@
+requests
+urllib3
+dhooks
+matplotlib
+numpy
+pyimgur
